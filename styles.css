@@ -139,7 +139,16 @@ h3 {
     border-bottom: 2px solid #007BFF; /* Add a bottom border */
     padding-bottom: 10px; /* Add some padding below the text */
 }
-
+.rounded-shadow {
+    border-radius: 15px; /* Adjust the value to make corners more or less rounded */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7); /* Stronger and wider shadow */
+    margin-top: 25px; /* Top margin */
+    margin-right: 25px; /* Right margin */
+    margin-bottom: 25px; /* Bottom margin */
+    margin-left: 25px; /* Left margin */
+    width: 90%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
 .container {
     display: flex;
     justify-content: space-between;
